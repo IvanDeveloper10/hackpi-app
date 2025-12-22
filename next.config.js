@@ -1,6 +1,3 @@
-
-import { nextui } from '@nextui-org/theme';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -9,4 +6,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-export default nextConfig; 
+export default nextConfig;
