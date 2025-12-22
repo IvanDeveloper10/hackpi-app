@@ -7,6 +7,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Cards from '@/components/Cards';
 
+// #ff3874 is the color in HEX for the ilustrations.
+
 export default function HomePage(): JSX.Element {
   return (
     <Fragment>

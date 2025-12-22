@@ -5,3 +5,6 @@
 .text-po {
   font-family: var(--font-poppins);
 }
+.calculator-container {
+  font-family: var(--font-poppins);
+}

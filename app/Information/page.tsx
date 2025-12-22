@@ -16,9 +16,9 @@ export default function Information(): JSX.Element {
       <section className='w-full h-screen'>
         <h1 className='text-po font-bold text-6xl text-center my-10'>COMPETENCY LEVELS</h1>
         <div className='w-full flex my-10 gap-5 px-10 text-po'>
-          <Card isPressable isHoverable>
+          <Card isPressable isHoverable className='bg-danger'>
             <CardHeader>
-              <h2>Basic</h2>
+              <h2 className='font-bold'>Basic</h2>
             </CardHeader>
             <CardBody>
               <p>It is specially designed for teenagers, people in elementary school, with exercises in operations and basic geometry.</p>
@@ -28,9 +28,9 @@ export default function Information(): JSX.Element {
             </CardFooter>
           </Card>
 
-          <Card isPressable isHoverable>
+          <Card isPressable isHoverable className='bg-danger'>
             <CardHeader>
-              <h2>Intermediate</h2>
+              <h2 className='font-bold'>Intermediate</h2>
             </CardHeader>
             <CardBody>
               <p>The intermediate level is for those who are in secondary school, to solve exercises such as notable products, theorems and real numbers.</p>
@@ -40,9 +40,9 @@ export default function Information(): JSX.Element {
             </CardFooter>
           </Card>
 
-          <Card isPressable isHoverable>
+          <Card isPressable isHoverable className='bg-danger '>
             <CardHeader>
-              <h2>Advanced</h2>
+              <h2 className='font-bold'>Advanced</h2>
             </CardHeader>
             <CardBody>
               <p>The advanced level is for people who are in university pursuing a professional career; it includes exercises such as integrals and analytical geometry.</p>

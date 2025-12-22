@@ -60,11 +60,13 @@ export default function NavBar(): JSX.Element {
               <i className='fi fi-rr-users flex justify-center items-center'></i> Blog
             </Link>
           </NavbarItem>
-          <NavbarItem>
-            <Link href={'/Updates'} className='text-po flex justify-center items-center gap-1'>
-              <i className='fi fi-rr-laptop-refresh flex justify-center items-center'></i> Updates
-            </Link>
-          </NavbarItem>
+          {user ? (
+            <NavbarItem>
+              <Link href={'/Play'} className='text-po flex justify-center items-center gap-1'>
+                <i className='fi fi-rr-square-root flex justify-center items-center'></i> Play
+              </Link>
+            </NavbarItem>
+          ): null }
           <NavbarItem>
             <Popover>
               <PopoverTrigger>
@@ -94,7 +96,7 @@ export default function NavBar(): JSX.Element {
                 className='text-po' 
                 onPress={handleSignOut}
               >
-                SignOut
+                Sign Out
               </Button>
             </NavbarItem>
           )}
