@@ -4,7 +4,6 @@ import clsx from 'clsx';
 import { Providers } from './providers';
 import { siteConfig } from '@/config/site';
 import { poppins } from '@/config/fonts';
-import NavBar from '@/components/NavBar';
 
 export const metadata: Metadata = {
   title: {
@@ -41,7 +40,6 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: 'class', defaultTheme: 'dark' }}>
-          <NavBar />
           { children }
         </Providers>
       </body>

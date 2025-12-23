@@ -1,11 +1,12 @@
 import { Fragment } from 'react';
 import Image from 'next/image';
 import { Card, CardHeader, CardBody, CardFooter } from '@heroui/card';
-import { Divider } from '@heroui/divider';
+import NavBar from '@/components/NavBar';
 
 export default function Information(): JSX.Element {
   return (
     <Fragment>
+      <NavBar />
       <section className='w-full h-screen '>
         <h1 className='text-po font-extrabold text-8xl text-center my-10 animate-bounce'>INFORMATION</h1>
         <div className='w-full flex justify-around'>

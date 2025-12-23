@@ -6,12 +6,14 @@ import { motion } from 'motion/react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Cards from '@/components/Cards';
+import NavBar from '@/components/NavBar';
 
 // #ff3874 is the color in HEX for the ilustrations.
 
 export default function HomePage(): JSX.Element {
   return (
     <Fragment>
+      <NavBar />
       <section className='w-full h-screen flex justify-center items-center'>
         <main className='flex flex-col justify-center items-center gap-5'>
           <motion.h1 initial={{ y: -100 }} animate={{ y: 0 }} className='text-po text-center text-6xl my-10'>Welcome To <span className='bg-danger p-2 rounded-2xl'>Hack兀</span></motion.h1>

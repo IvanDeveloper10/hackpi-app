@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { onAuthStateChanged, signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '@/utils/firebase';
+import NavBar from '@/components/NavBar';
 
 export default function UserCreate(): JSX.Element {
 
@@ -34,6 +35,7 @@ export default function UserCreate(): JSX.Element {
 
   return (
     <Fragment>
+      <NavBar />
       <section className='w-full h-screen flex justify-center items-center text-po'>
         <div className='w-2/4 flex flex-col justify-center items-center gap-4'>
           <main>
