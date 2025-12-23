@@ -6,12 +6,13 @@ import { getAuth } from 'firebase/auth';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY!,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN!,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID!,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET!,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID!,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID!,
+  apiKey: 'AIzaSyAr0KseG0YAHvUiz9Ckat3hTrtvdr9VFLk',
+  authDomain: 'hackpi-app.firebaseapp.com',
+  projectId: 'hackpi-app',
+  storageBucket: 'hackpi-app.firebasestorage.app',
+  messagingSenderId: '62962994310',
+  appId: '1:62962994310:web:391120a7f2f2791f691507',
+  measurementId: 'G-G4DL3R1DQ5'
 };
 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
