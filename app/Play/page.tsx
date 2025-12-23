@@ -1,10 +1,14 @@
+'use client';
+
 import { Fragment } from 'react';
 import { Card, CardBody } from '@heroui/card';
 import Link from 'next/link';
+import NavBar from '@/components/NavBar';
 
 export default function PlayMath(): JSX.Element {
   return (
     <Fragment>
+      <NavBar />
       <section className='w-full h-screen flex flex-col justify-center items-center text-po'>
         <main>
           <h1 className='text-8xl font-extrabold mb-10'>SELECT YOUR LEVEL</h1>
