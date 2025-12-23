@@ -1,8 +1,7 @@
-# Next.js & HeroUI Template
+#HACKPI APP
+<img width="1848" height="920" alt="Captura de pantalla 2025-12-23 121642" src="https://github.com/user-attachments/assets/9d7b767a-a6a6-443f-a3d3-8d7f5f37dc28" />
+Hack兀 It's designed to solve math problems of varying difficulty, with built-in tools and functions for all exercises. There are different levels, each unlocking upon completion, and progress is saved.
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
-
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
 
 ## Technologies Used
 
@@ -14,40 +13,7 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
-## How to Use
 
-### Use the template with create-next-app
+Hack兀 contains 3 levels: basic, intermediate, and advanced. Each level is specialized for a specific academy or age range. First, you must read a guide, and then solve a quiz based on that guide.
 
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+I created this project with the intention of helping people practice and read math. I developed a short guide so that people wouldn't get bored; that's why I designed it to be concise and not too long. After completing the guide, users take a multiple-choice quiz with four options. Once they finish and submit, they can see their results and some motivational phrases. The quiz takes some time.
